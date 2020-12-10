@@ -35,9 +35,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background: linear-gradient(2deg, #27b95f 0%, #68dbaf 100%);
+    -webkit-box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
     box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
+    background: linear-gradient(2deg, #27b95f 0%, #68dbaf 100%);
+
 }
 .ADDNEW_addManualButton h2{
     color: black;

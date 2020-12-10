@@ -153,7 +153,7 @@ body {
 }
 .DETAILS_form button{
   width: 82%;
-  border: 1px solid black;
+  border: none;
   height: 50px;
   text-align: center;
   display: flex;
@@ -171,14 +171,14 @@ body {
   background-color: rgb(241, 241, 245);
   width: 80%;
   height: 150px;;
-  border: 1px solid black;
+  border: 1px solid rgb(129, 129, 129);
   margin-bottom: 5px;
   border-radius: 4px;
 
 }
   .DETAILS_chev{
     transform: rotate(180deg);
-    width: 10%;
+    width: 9%;
     margin-left: 10px;
     margin-top: 10px;
     

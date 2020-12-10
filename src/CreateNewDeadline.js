@@ -49,10 +49,9 @@ function HomePage() {
             ></TextInput>
             <TextInput header="DATUM" tooltip="(YYYY-MM-DD)"></TextInput>
             <TextInput header="ÖVRIGT" tooltip="(T.EX: SAL TP51)"></TextInput>
-
             <div className="dead_ButtonText">
               <Link to="/home">
-                <img className="dead_plusIcon" src={dead_plusIcon}></img>
+                <h2 className="dead_a_h2">LÄGG TILL</h2>
               </Link>
             </div>
           </div>
