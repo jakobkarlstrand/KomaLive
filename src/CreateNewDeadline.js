@@ -30,7 +30,7 @@ function HomePage() {
       <body>
         <div className="dead_layer">
           <div className="dead_back">
-            <Link to="/home">
+            <Link to="add">
               <img className="dead_chev" src={dead_chev} />
             </Link>
           </div>

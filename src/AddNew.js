@@ -17,27 +17,27 @@ function HomePage() {
     <body>
       
       
-        <div className="container">
+        <div className="ADDNEW_container">
           
 
-          <div className="topHeader">
+          <div className="ADDNEW_topHeader">
             <h1>Lägg till en kurs eller påminelse</h1>
           </div>
-          <Link className="linkManualButton" to="/addCourse">
-            <div className="addCourseButton">
-              <img className="add" src={addIcon}/>
+          <Link className="ADDNEW_linkCourseButton" to="/addCourse">
+            <div className="ADDNEW_addCourseButton">
+              <img className="ADDNEW_add" src={addIcon}/>
                 <h2> Kurs</h2>
             </div>
             </Link>
-              <Link className="linkManualButton" to="/create-new-man">
-                <div className="addManualButton">
-                  <img className="task" src={task}/>
+              <Link className="ADDNEW_linkManualButton" to="/create-new-man">
+                <div className="ADDNEW_addManualButton">
+                  <img className="ADDNEW_task" src={task}/>
                   <h2> Påminnelse</h2>
                </div>
              </Link>
-                  <Link className="linkTillbaka" to="/home">
-                    <div className="tillbaka">
-                    <img className="chev" src={chev}/>
+                  <Link className="ADDNEW_linkTillbaka" to="/home">
+                    <div className="ADDNEW_tillbaka">
+                    <img className="ADDNEW_chev" src={chev}/>
                       
                     </div></Link>
                

@@ -51,9 +51,6 @@
   height: 60%;
 }
 
-.dead_addButton {
-}
-
 .dead_chev {
   transform: rotate(180deg);
   width: 30%;
@@ -63,7 +60,7 @@
 .dead_back {
   width: 30%;
   height: 100px;
-  margin: 15px;
+  margin: 1px;
   position: fixed;
 }
 

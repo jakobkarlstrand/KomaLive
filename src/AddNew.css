@@ -1,46 +1,53 @@
-.topHeader{
+.ADDNEW_topHeader{
+   text-align: center;
+   margin-top: 25px;
+}
+.ADDNEW_topHeader h1{
+    font-style: normal;
+    font-style: 30px;
+    margin-top: 0px;
+ }
+
+.ADDNEW_linkCourseButton{
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
-    border:1px;
-    margin: 5%;
-    border-radius: 5px;
-    height: 40px;
-    width: 95%;
+    background-color: white;
+    background-image: linear-gradient(2deg, rgba(250,166,41,1) 0%, rgba(250,202,41,1) 100%);
+    box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
 
 }
-
-
-
-.linkManualButton{
+.ADDNEW_linkManualButton{
    
-    width: 60%;
-    height: 150px;
+    width: 230px;
+    height: 230px;
     text-align: center;
-    border: 2px ;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px #f8f8f8;
+    border-radius: 16px;
     margin-bottom: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
-    
+    background: linear-gradient(2deg, #27b95f 0%, #68dbaf 100%);
+    box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
 }
-
-.linkTillbaka{
+.ADDNEW_addManualButton h2{
+    color: black;
+}
+.ADDNEW_linkTillbaka{
  
-    width: 40%;
+    width: 100%;
     height: 100px;
-    margin-right: 25%;
     text-align: center;
     border: 2px ;
-    position: fixed;
-    bottom: 20px;
-    margin-bottom: 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,17 +55,17 @@
     
 }
 
-.linkTillbaka:active {
+.ADDNEW_linkTillbaka:active {
     width: 45%;
     transition: 0.01s;
 }
 
-.linkManualButton:active {
+.ADDNEW_linkManualButton:active {
     width: 70%;
     transition: 0.1s;
 }
 
-.container{
+.ADDNEW_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,42 +73,34 @@
     width: 100%;
     height: 100vh;
     background: linear-gradient(2deg, #A1C4FD 0%, #C2e9FB 100%);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.topHeader h1{
-    color: #f8f8ff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.1em;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0;  
-}
 
-.container h2{
-  color: #f8f8ff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.1em;
-  font-weight: 800;
+.ADDNEW_container h2{
+   color: black;
+   font-style: normal;
+  font-size: 28px;
+  font-weight: 600;
   text-transform: uppercase;
   margin: 0;
 }
 
-.task{
+.ADDNEW_task{
 width: 70%;
 height: 60%;
 margin-top: 5%;
 margin-bottom: 5%;
 }
-.add{
+.ADDNEW_add{
     margin-top: 5%;
     margin-bottom: 5%;
     width: 50%;
     height: 65%;
 }
-.chev{
+.ADDNEW_chev{
     transform: rotate(180deg);
-    width: 40%;
+    width: 20%;
+    margin-bottom: 15%;
     fill: #A1c4fd;
    
 }
