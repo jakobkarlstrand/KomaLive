@@ -1,4 +1,5 @@
 import video from './images/welcomeBW.mp4';
+import logo from './logo.svg';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import Background from './images/liu.jfif';
@@ -14,30 +15,35 @@ function LandingPage() {
   return (
 
     <body>
-        <div className="landing-container">
-		<div className="fade">
+        <div className="landing_landing-container">
+		<div className="landing_fade">
 		</div>
-		<video autoPlay="autoplay" muted loop="loop" id="myVideo" className="theVideo">
+		<video autoPlay muted loop id="myVideo" className="landing_theVideo">
 			<source src={video} type="video/mp4"/>
 		</video>
-		<img className="backgroundIMG" src={Background}/>
-            <div className="welcome">
+		<img className="landing_backgroundIMG" src={Background}/>
+            <div className="landing_welcome">
                 <h1>LiUTRACKER</h1>
             </div>
-            <div className="welcome-info">
+            <div className="landing_welcome-info">
                 <h2>Välkommen!</h2>
 
                 <h4>Välj ditt program, vi löser resten.</h4>
-                <Dropdown className="drop" options={options} placeholder="VÄLJ PROGRAM"/>
+                <Dropdown className="landing_drop" options={options} placeholder="VÄLJ PROGRAM"/>
 
             </div>
-            <div className="buttonEnter">
-            <Link to="/home">
-                HÅLL KOLL!</Link>
+			
+			<Link to="/home">
+            <div className="landing_buttonEnter">
+
+                HÅLL KOLL!
+
             </div>
-			<div className="bgblur">
+			</Link>
+			
+			<div className="landing_bgblur">
 			</div>
-            <div className="changeToCourse">
+            <div className="landing_changeToCourse">
               <h6>Växla till kurser</h6>
             </div>
 

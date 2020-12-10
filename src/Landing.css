@@ -5,8 +5,12 @@
     
 }
 
+body{
+	margin-top: auto;
+	overflow: hidden;
+}
 
-.welcome{
+.landing_welcome{
   text-align: center;
   color: white;
   font-size: 34px;
@@ -18,7 +22,7 @@
 	
 }
 
-.landing-container{
+.landing_landing-container{
 
   background-color: rgba(109, 162, 248, 0.8);
   
@@ -27,7 +31,7 @@
 overflow: hidden;
 }
 
-.welcome-info{
+.landing_welcome-info{
 
 	margin:auto;
 	max-width: 40vh;
@@ -47,7 +51,7 @@ overflow: hidden;
 
 }
 
-.buttonEnter {
+.landing_buttonEnter {
 		  display: flex;
 	justify-content: center;
 	align-items: center;
@@ -58,7 +62,6 @@ overflow: hidden;
 	border:3px solid #ffffff;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Impact, sans-serif;
 	font-size:36px;
 	font-weight:bold;
 	font-style:italic;
@@ -74,11 +77,12 @@ overflow: hidden;
 }
 
 
-.enterButton:hover {
+.landing_enterButton:hover {
 	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
 	background-color:#fb9e25;
 }
-.enterButton:active {
+.landing_enterButton:active {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
 	position:relative;
 	top:20px;
 }
@@ -87,18 +91,18 @@ overflow: hidden;
 
 
 
-.buttonEnter:hover {
+.landing_buttonEnter:hover {
 	background:linear-gradient(to bottom, #f0b58d 5%, #fff1c9 100%);
 	background-color:#f0b58d;
 }
 
-.buttonEnter:active {
+.landing_buttonEnter:active {
 	position:relative;
 	background:linear-gradient(to bottom, #f0b58d 5%, #fff1c9 100%);
 	top:1px;
 }
 
-.fade{
+.landing_fade{
 	
 	background-color: rgba(0, 0, 0, 0.0);
 	z-index: 3;
@@ -112,11 +116,11 @@ overflow: hidden;
 
 }
 
-.changeToCourse{
+.landing_changeToCourse{
 	font-size: 18px;
   text-align: center;
   margin-top: 10vh;
-    margin-bottom: 68px;
+    margin-bottom: 20%;
 	padding-bottom: auto;
 	color: white;
 	text-decoration: underline;
@@ -125,7 +129,7 @@ overflow: hidden;
 	 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	 overflow: hidden;
 }
-.drop{
+.landing_drop{
   display: flex;
   justify-content: center;
   padding-top: 2vh;
@@ -133,6 +137,7 @@ overflow: hidden;
   font-style: italic;
   font-weight: bold;
   align-items: center;
+
 }
 
 
@@ -147,11 +152,25 @@ overflow: hidden;
     z-index: -1;
 }
 
+h1{
+	letter-spacing: -3.5px;
+	margin-bottom: 5vh;
+	margin-top: 0.5vh;
+}
 
+h2{
+	padding-bottom: 3vh;
+	font-size: 33px;
+		font-weight: 200;
+	
+}
 
+h4{
+	font-weight: 100;
+	 font-size: 17px;
+}
 
-
-.bgblur{
+.landing_bgblur{
 	position: fixed;
 	justify-content: center;
 	align-items: center;
@@ -168,11 +187,11 @@ overflow: hidden;
 	
 }
 
-.Dropdown-menu{
+.landing_Dropdown-menu{
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.backgroundIMG{
+.landing_backgroundIMG{
 
   position: fixed;
   left: 0px;
@@ -182,6 +201,25 @@ overflow: hidden;
   
 }
 
+.landing_span{
+	{ 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+
+}  
+}
+
 a:visited {
   color: white;
+}
+
+
+a {
+  color: white;
+  display: block;
 }
