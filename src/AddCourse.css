@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+*{
+    font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+}
+
+html{
+    overflow: auto;
+}
+body{
+    overflow: auto;
+    background: linear-gradient(300deg, rgba(50,125,242,1) 0%, rgba(109,225,247,1) 100%);
+}
+
+.addC_addCourseList{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30vh;
+    pointer-events: all;
+}
+
+.addC_courseTable{
+   /* background: linear-gradient(260deg, rgba(220,222,224,1) 0%, rgba(208,234,255,1) 100%);*/
+    -webkit-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 80vw;
+    height: 60px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    background: linear-gradient(260deg, rgba(220,222,224,1) 0%, rgba(208,234,255,1) 100%);
+    
+}
+
+.addC_newCourseHeader{
+    margin: 0;
+    padding: 30px 0 15px 0;
+    text-align: center;
+}
+
+.addC_course{
+    color: #242424;
+    margin-left: 5vw;
+    font-weight: bold;
+}
+
+.addC_name{
+    color: #242424;
+    margin-right: 5vw;
+}
+.addC_stickyboi{
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(203,211,223,0) 0%, rgba(190,232,244,0.8211659663865546) 100%);
+    width: 100%;
+    height: 200px;
+    
+}
+
+.addC_addCourseButtonPlus{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(225deg, rgba(250,166,41,1) 0%, rgba(250,202,41,1) 100%);
+
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    
+    z-index: 99;
+    -webkit-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+}
+
+.addC_addText{
+    margin: 0 0 0 0;
+    padding: 0;
+    font-size: 100px;
+}
+
+.addC_houseIcon{
+    margin-bottom: 12px;
+    width: 50%;
+    height: 50%;
+}
+
+.addC_plusIcon{
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right:50%;
+    margin: -25% -25%;
+    
+    width: 10vw;
+    height: 10vw;
+}
+
+.addC_cancelButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    background: linear-gradient(225deg, rgba(250,166,41,1) 0%, rgba(250,202,41,1) 100%);
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 95px;
+    
+    z-index: 99;
+    -webkit-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 31px -4px rgba(0,0,0,0.75);
+}
+
+.addC_back{
+    height: 5vw;
+    width: 5vw;
+    transform: rotate(180deg);
+}
+
+.addC_backButton{
+   display: flex;
+   position: fixed;
+   margin: 40px 0 0 2.5vw;
+}
+
+#addC_courseTable{
+    display: flex;
+    width: 80vw;
+}
+
+.addC_a{
+    position: absolute;
+    border-radius: 4px 0px 0px 4px;
+    z-index: 98;
+    background-color: black;
+    width: 10px;
+    height: 60px; 
+}

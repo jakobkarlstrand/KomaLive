@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    
+}
+
+
+.welcome{
+  text-align: center;
+  color: white;
+  font-size: 34px;
+    padding-top: 9vh;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	font-family: Roboto Condensed;
+	font-style: italic;
+	overflow: hidden;
+	
+}
+
+.landing-container{
+
+  background-color: rgba(109, 162, 248, 0.8);
+  
+  background-image: './images/liu.jfif';
+
+overflow: hidden;
+}
+
+.welcome-info{
+
+	margin:auto;
+	max-width: 40vh;
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+  margin-top: 0px;
+      padding-top: 1px;
+	  padding-bottom: 4vh;
+	  color: white;
+	  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+
+}
+#enter{
+  text-align: center;
+
+}
+
+.buttonEnter {
+		  display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow:inset 0px 0px 6px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:15px;
+	border:3px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	font-style:italic;
+	padding:21px 30px;
+	text-decoration:none;
+	text-shadow:1px -1px 1px #b5802a;
+	max-width:  200px;
+	margin: auto;
+	margin-top: 5vh;
+	min-height: 7vh;
+
+  
+}
+
+
+.enterButton:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.enterButton:active {
+	position:relative;
+	top:20px;
+}
+
+        
+
+
+
+.buttonEnter:hover {
+	background:linear-gradient(to bottom, #f0b58d 5%, #fff1c9 100%);
+	background-color:#f0b58d;
+}
+
+.buttonEnter:active {
+	position:relative;
+	background:linear-gradient(to bottom, #f0b58d 5%, #fff1c9 100%);
+	top:1px;
+}
+
+.fade{
+	
+	background-color: rgba(0, 0, 0, 0.0);
+	z-index: 3;
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	 animation-name: bgFade;
+  animation-duration: 0.5s;
+  pointer-events: none;
+
+}
+
+.changeToCourse{
+	font-size: 18px;
+  text-align: center;
+  margin-top: 10vh;
+    margin-bottom: 68px;
+	padding-bottom: auto;
+	color: white;
+	text-decoration: underline;
+	 text-transform: uppercase;
+	 font-style: italic;
+	 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	 overflow: hidden;
+}
+.drop{
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+  font-style: italic;
+  font-weight: bold;
+  align-items: center;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  max-width:100%;
+  min-height:100%;
+  max-height:100%;
+    z-index: -1;
+}
+
+
+
+
+
+.bgblur{
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.0);
+	z-index: -1;
+	min-width: 300px;
+	min-height: 325px;
+  top: 48%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+	padding: auto;
+	backdrop-filter: blur(90px) brightness(60%);
+	border-radius: 10px;
+	
+}
+
+.Dropdown-menu{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.backgroundIMG{
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+  overflow: hidden;
+  
+}
+
+a:visited {
+  color: white;
+}
