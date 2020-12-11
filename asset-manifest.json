@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KomaLive/static/css/main.f06dbfa6.chunk.css",
-    "main.js": "/KomaLive/static/js/main.4084755f.chunk.js",
-    "main.js.map": "/KomaLive/static/js/main.4084755f.chunk.js.map",
+    "main.js": "/KomaLive/static/js/main.38be41b3.chunk.js",
+    "main.js.map": "/KomaLive/static/js/main.38be41b3.chunk.js.map",
     "runtime-main.js": "/KomaLive/static/js/runtime-main.9ea77c95.js",
     "runtime-main.js.map": "/KomaLive/static/js/runtime-main.9ea77c95.js.map",
     "static/css/2.fe708519.chunk.css": "/KomaLive/static/css/2.fe708519.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.fe708519.chunk.css",
     "static/js/2.d51a8c51.chunk.js",
     "static/css/main.f06dbfa6.chunk.css",
-    "static/js/main.4084755f.chunk.js"
+    "static/js/main.38be41b3.chunk.js"
   ]
 }
