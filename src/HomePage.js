@@ -69,7 +69,8 @@ function HomePage() {
                 </div>
                 
                 <div className="wrapper-counter">
-                    <div className="counter-container" onClick={() => window.location="/details/TNA006/Tenta/2"}>
+                <Link style={{textDecoration: "none"}} to="/details/TNA006/Tenta/2">
+                    <div className="counter-container">
                         <div className="theh1">
                             <h1>2</h1>
                         </div>   
@@ -77,6 +78,7 @@ function HomePage() {
                             <p>dagar</p>
                         </div>
                     </div>
+                </Link>
                 </div>
                 </div>
                 <div>
