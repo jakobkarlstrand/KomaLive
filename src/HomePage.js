@@ -98,17 +98,13 @@ function HomePage() {
                 <img src={days}/>
             </div>
         </div>
-        <InfoRow course="TNA006" type="Tenta" daysLeft="2"></InfoRow>
+        <InfoRow course="TNA007" type="Tenta" daysLeft="2"></InfoRow>
         <InfoRow course="TNM046" type="Tenta" daysLeft="4"></InfoRow>
         <InfoRow course="PRIVAT" type="Ansöka om jobb" daysLeft="6"></InfoRow>
         <InfoRow course="TNM043" type="Inlämning" daysLeft="9"></InfoRow>
         <InfoRow course="TNA006" type="Tenta" daysLeft="11"></InfoRow>
         <InfoRow course="TNM046" type="Tenta" daysLeft="12"></InfoRow>
         <InfoRow course="PRIVAT" type="Ansöka om jobb" daysLeft="12"></InfoRow>
-        <InfoRow course="TNM043" type="Inlämning" daysLeft="20"></InfoRow>
-        <InfoRow course="TNM043" type="Inlämning" daysLeft="20"></InfoRow>
-        <InfoRow course="TNM043" type="Inlämning" daysLeft="20"></InfoRow>
-        <InfoRow course="TNM043" type="Inlämning" daysLeft="20"></InfoRow>
     </div>
     <div className="stickyBoi">
 
