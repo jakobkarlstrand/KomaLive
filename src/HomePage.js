@@ -1,12 +1,13 @@
 import addIcon from './images/add.png';
 import gear from './images/gear.svg';
-import bytProgram from './images/user.svg'
-import chev from './images/chevron.svg'
-import days from './images/calendar.svg'
-import task from './images/task.svg'
+import bytProgram from './images/profile-user.png'
+import chev from './images/more2.png'
+import days from './images/calander.png'
+import task from './images/task.png'
 import circle from './images/circle.png'
 import Dropdown from 'react-dropdown';
 import './Home.css'
+import './App.css'
 import {
     BrowserRouter as Router,
     Switch,
@@ -63,14 +64,16 @@ function HomePage() {
                         </Link>
                     </div>
                     <div className="settingsButtonWrapper">
-                        <div className="settingsButton"><img className="gear" src={gear}/>
-                        </div>
                     </div>
                 </div>
                 
                 <div className="wrapper-counter">
                 <Link style={{textDecoration: "none"}} to="/details/TNA006/Tenta/2">
                     <div className="counter-container">
+                    <div className="home_info">
+                            <h2 id="header_course">TENTA</h2>
+                            <h2>TNA007</h2>
+                        </div>   
                         <div className="theh1">
                             <h1>2</h1>
                         </div>   
@@ -92,10 +95,16 @@ function HomePage() {
     <div className="infoTable">
         <div className="icon-wrapper">
             <div className="img1">
+            <div className="content_yes">
                 <img src={task}/>
+                <h2>Deadline</h2>
+            </div>
             </div>
             <div className="img2">
-                <img src={days}/>
+                <div className="content_yes">
+                    <img src={days}/>
+                    <h2>Dagar</h2>
+                </div>
             </div>
         </div>
         <InfoRow course="TNA007" type="Tenta" daysLeft="2"></InfoRow>

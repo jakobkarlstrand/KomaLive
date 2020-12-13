@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import Dropdown from "react-dropdown";
 import dead_plusIcon from "./images/clearplus.png";
-import dead_chev from "./images/chevron.svg";
+import dead_chev from "./images/home.png";
 import "./NewDeadline.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import './App.css'
 function TextInput({ header, tooltip }) {
   return (
     <div className="dead_inputWrapper">
@@ -30,7 +30,7 @@ function HomePage() {
       <body>
         <div className="dead_layer">
           <div className="dead_back">
-            <Link to="add">
+            <Link to="/home">
               <img className="dead_chev" src={dead_chev} />
             </Link>
           </div>

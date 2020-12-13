@@ -10,7 +10,7 @@ import {
     Link,
     useParams
   } from "react-router-dom";
-
+  import './App.css'
 function Details() {
 
     const [notes, addNotes] = useState(["Inga anteckningar hittades"])

@@ -41,6 +41,10 @@
     background: linear-gradient(2deg, #27b95f 0%, #68dbaf 100%);
 
 }
+.ADDNEW_linkCourseButton:active {
+    width: 70%;
+    transition: 0.1s;
+}
 .ADDNEW_addManualButton h2{
     color: black;
 }

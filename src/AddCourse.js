@@ -2,9 +2,9 @@ import "./AddCourse.css";
 import { Link } from "react-router-dom";
 import house from "./images/house.png";
 import plus from "./images/clearplus.png";
-import chev from "./images/chevron.svg";
+import chev from "./images/home.png";
 import { useState } from "react";
-
+import './App.css'
 function InfoBox({ course, name }) {
   return (
     <div className="addC_courseTable">
@@ -100,14 +100,14 @@ function AddCourse() {
 
   return (
     <div>
-      <Link to="add">
+      <Link to="/home">
         <div className="addC_backButton">
           <img className="addC_back" src={chev} alt="Tillbaka"></img>
         </div>
       </Link>
 
       <div className="addC_addCourseList">
-        <h1 className="addC_newCourseHeader">KURSER</h1>
+        <h1 className="addC_newCourseHeader">VÄLJ KURSER</h1>
         <div id="addC_courseTable" onClick={click}>
           {showClick}
           <InfoBox course="TNA001" name="Matematisk grundkurs"></InfoBox>
@@ -161,15 +161,11 @@ function AddCourse() {
       </div>
 
       <div className="addC_stickyboi"></div>
-      <Link to="/home">
-        <div className="addC_addCourseButtonPlus">
-          <p className="addC_addText">{content}</p>
-        </div>
-
-        {/*<div className="addC_cancelButton">
-            <img className="addC_cross" src={cross} alt="Avbryt!"></img>
-    </div>*/}
-      </Link>
+      <div className="course_ButtonText">
+              <Link to="/home">
+                <h2 className="dead_a_h2">LÄGG TILL</h2>
+              </Link>
+            </div>
     </div>
   );
   /** KOLLA INTE VIDARE!! */

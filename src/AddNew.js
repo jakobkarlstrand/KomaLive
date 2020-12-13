@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import Dropdown from 'react-dropdown';
 import './AddNew.css'
-import chev from './images/chevron.svg';
+import chev from './images/cancel.png';
 import addIcon from './images/add.png';
 import task from './images/task.svg';
 import circle from './images/circle.png';
@@ -21,7 +21,7 @@ function HomePage() {
           
 
           <div className="ADDNEW_topHeader">
-            <h1>Lägg till en kurs eller påminelse</h1>
+            <h1>Lägg till en kurs eller påminnelse</h1>
           </div>
           <Link className="ADDNEW_linkCourseButton" to="/addCourse">
             <div className="ADDNEW_addCourseButton">

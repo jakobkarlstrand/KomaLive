@@ -97,7 +97,29 @@ body {
   -moz-box-shadow: 10px 10px 31px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 31px -9px rgba(0, 0, 0, 0.75);
 }
+.course_ButtonText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(
+    225deg,
+    rgba(250, 166, 41, 1) 0%,
+    rgba(250, 202, 41, 1) 100%
+  );
 
+  height: 70px;
+  width: 330px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  -webkit-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
+}
 .addC_addText {
   margin-top: auto;
   margin-bottom: auto;
@@ -144,7 +166,6 @@ body {
 .addC_back {
   width: 9.51%;
   height: 9.51%;
-  transform: rotate(180deg);
 }
 
 .addC_backButton {
@@ -157,7 +178,6 @@ body {
 }
 
 .addC_a {
-  position: absolute;
   border-radius: 4px 0px 0px 4px;
   z-index: 98;
   background-color: black;

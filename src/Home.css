@@ -35,15 +35,33 @@ html{
     border-radius: 50%;
     color: #da6d6d;
     font-size: 60px;
-    margin-top: 25px;
     z-index: 99;
     padding: 0;
 }
+.home_info{
+    
+    margin: 0;
+}
+#header_course{
+    font-weight: bold;
+    font-size: 28px;
+}
+.home_info h2{
+    color: black;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0;
+}
 .theh1{
-    font-size: 70px;
+    font-size: 50px;
     font-style: normal;
     display: flex;
     justify-content: flex-end;
+    margin-top: -10px;
+}
+.theh1 h1{
+    margin: 0;
 }
 .thep{
     color: black;
@@ -51,7 +69,11 @@ html{
     align-items: center;
     justify-content: flex-start;
     font-weight: bold;
-    margin-top: -30px;
+  
+}
+.thep p{
+    margin-top: -22px !important;
+
 }
 .counter-container h1{
     text-shadow: 1px 2px black;
@@ -71,6 +93,7 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .lowerButton{
@@ -92,7 +115,7 @@ html{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 99;
+
     -webkit-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
@@ -170,13 +193,14 @@ box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.75);
     border-radius: 24px;
 }
 
+
 .stickyBoi{
+    pointer-events: none;
     position: fixed;
     bottom: 0;
     background: linear-gradient(180deg, rgba(203,211,223,0) 0%, rgba(190,232,244,0.8211659663865546) 100%);
     width: 100%;
     height: 200px;
-    z-index: 89;
 }
 .gap{
     height: 300px;
@@ -298,31 +322,44 @@ box-shadow: 0px 0px 25px -12px rgba(0,0,0,0.55);
     flex-direction: row;
     border-radius: 16px 16px 0px 0px;
     padding: 0;
-    margin-bottom: 10px;
-    background-image: linear-gradient(to top, #fdfbfb 20%, #ebedee 100%);
+    margin-bottom: 25px;
+    margin-top: -30px;
 
 }
+
+.content_yes{
+width: 40%;
+}
 .img1 img{
-    width: 25%;
-    margin-left: -15px;
+    width: 100%;
 }
 
 .img2 img{
-    width: 25%;
-    margin-right: -7px;
+    width: 100%;
 }
 
 .img1{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 35px;
-    width: 50%;
 }
 .img2{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
-    margin-right: 25px;
-    width: 50%;
+}
+.img2 h2{
+    margin: 0;
+    margin-top: -20px;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+}
+.img1 h2{
+    margin: 0;
+    margin-top: -20px;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
 }

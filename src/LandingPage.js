@@ -8,7 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+import './App.css'
 function LandingPage() {
   const options = ['MT1', 'MT2', 'MT3'];
   return (

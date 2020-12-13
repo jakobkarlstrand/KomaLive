@@ -52,7 +52,6 @@
 }
 
 .dead_chev {
-  transform: rotate(180deg);
   width: 30%;
   fill: #a1c4fd;
 }
