@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/KomaLive/static/css/main.e43bc06d.chunk.css",
-    "main.js": "/KomaLive/static/js/main.fb6ff719.chunk.js",
-    "main.js.map": "/KomaLive/static/js/main.fb6ff719.chunk.js.map",
+    "main.css": "/KomaLive/static/css/main.4cdd3660.chunk.css",
+    "main.js": "/KomaLive/static/js/main.c2e84480.chunk.js",
+    "main.js.map": "/KomaLive/static/js/main.c2e84480.chunk.js.map",
     "runtime-main.js": "/KomaLive/static/js/runtime-main.6005c0f6.js",
     "runtime-main.js.map": "/KomaLive/static/js/runtime-main.6005c0f6.js.map",
     "static/css/2.fe708519.chunk.css": "/KomaLive/static/css/2.fe708519.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e1c257c2.chunk.js.map": "/KomaLive/static/js/3.e1c257c2.chunk.js.map",
     "index.html": "/KomaLive/index.html",
     "static/css/2.fe708519.chunk.css.map": "/KomaLive/static/css/2.fe708519.chunk.css.map",
-    "static/css/main.e43bc06d.chunk.css.map": "/KomaLive/static/css/main.e43bc06d.chunk.css.map",
+    "static/css/main.4cdd3660.chunk.css.map": "/KomaLive/static/css/main.4cdd3660.chunk.css.map",
     "static/js/2.ca72bfc4.chunk.js.LICENSE.txt": "/KomaLive/static/js/2.ca72bfc4.chunk.js.LICENSE.txt",
     "static/media/add.90444a83.png": "/KomaLive/static/media/add.90444a83.png",
     "static/media/calander.e4d1ac99.png": "/KomaLive/static/media/calander.e4d1ac99.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.6005c0f6.js",
     "static/css/2.fe708519.chunk.css",
     "static/js/2.ca72bfc4.chunk.js",
-    "static/css/main.e43bc06d.chunk.css",
-    "static/js/main.fb6ff719.chunk.js"
+    "static/css/main.4cdd3660.chunk.css",
+    "static/js/main.c2e84480.chunk.js"
   ]
 }
