@@ -32,12 +32,9 @@ function App() {
     
     <Router>
      <AnimatedSwitch  
-     atEnter={{ offset:  -100}}
-     atLeave={{ offset: 100 }}
-     atActive={{ offset: 0 }}
-     mapStyles={(styles) => ({
-       transform: `translateX(${styles.offset}%)`,
-     })}
+     atEnter={{ opacity: 0 }}
+     atLeave={{ opacity: 0 }}
+     atActive={{ opacity: 1 }}
      className="switch-wrapper"
     >
       <Route path="/home" component={HomePage}>

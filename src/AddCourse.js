@@ -99,7 +99,7 @@ function AddCourse() {
   }
 
   return (
-    <div>
+    <div className="course_body">
       <Link to="/home">
         <div className="addC_backButton">
           <img className="addC_back" src={chev} alt="Tillbaka"></img>

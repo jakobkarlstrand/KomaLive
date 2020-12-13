@@ -7,12 +7,12 @@
 html {
   overflow: auto;
 }
-body {
+.course_body {
   overflow: auto;
   background: linear-gradient(
-    300deg,
-    rgba(50, 125, 242, 1) 0%,
-    rgba(109, 225, 247, 1) 100%
+    209deg,
+    rgba(194, 233, 251, 1) 0%,
+    rgba(161, 196, 253, 1) 100%
   );
 }
 
